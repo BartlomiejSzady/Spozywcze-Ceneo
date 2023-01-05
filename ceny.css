@@ -1,0 +1,55 @@
+.list {
+  	margin: auto;
+  	width: 50%;
+ 	border: 5px solid orange;
+ 	padding: 10px;	
+}
+.button {
+	border-radius: 8px;
+	padding: 5px;
+	font-weight: 600;
+	background-color: orange;
+}
+.middle {
+	margin: auto;
+  	width: 50%;
+  	padding-bottom: 30px;
+}
+.middleafter {
+	margin: auto;
+  	width: 50%;
+  	padding-bottom: 30px;
+  	padding-left: 300px;
+}
+.żabkalogo {
+	position: absolute;
+    right: 240px;
+}
+.żabka {
+	position: absolute;
+    right: 200px;
+    padding-top: 180px;
+}
+.lidllogo {
+	position: absolute;
+    left: 210px;
+}
+.lidl {
+	position: absolute;
+    left: 170px;
+    padding-top: 180px;
+}
+.biedronkalogo {
+	position: absolute;
+    right: 750px;
+}
+.biedronka {
+	position: absolute;
+    right: 700px;
+    padding-top: 180px;
+}
+
+.ramka {
+	border: 5px solid orange;
+ 	padding: 10px;	
+}
