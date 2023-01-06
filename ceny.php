@@ -13,7 +13,13 @@
     <input type="checkbox" id="masło" name="masło" value= "masło">
     <label for="masło"> Masło </label><br>
     <input type="checkbox" id="szpinak" name="szpinak" value= "szpinak">
-    <label for="szpinak"> Szpinak </label><br><br>
+    <label for="szpinak"> Szpinak </label><br>
+    <input type="checkbox" id="chlebt" name="chlebt" value= "chlebt">
+    <label for="chlebt"> Chleb Tostowy </label><br>
+    <input type="checkbox" id="pomidor" name="pomidor" value= "pomidor">
+    <label for="pomidor"> Pomidor </label><br>
+    <input type="checkbox" id="hummus" name="hummus" value= "hummus">
+    <label for="hummus"> Hummus </label><br><br>
     <input type="submit" value="Porównaj" class="button">
   </form>
 </body>
