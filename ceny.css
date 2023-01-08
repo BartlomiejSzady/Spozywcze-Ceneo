@@ -10,6 +10,14 @@
 	font-weight: 600;
 	background-color: orange;
 }
+.button2 {
+	border-radius: 8px;
+	padding: 5px;
+	font-weight: 600;
+	background-color: orange;
+	padding-top: 50px;
+	padding-left: 50px;
+}
 .middle {
 	margin: auto;
   	width: 50%;
@@ -48,7 +56,6 @@
     right: 700px;
     padding-top: 180px;
 }
-
 .ramka {
 	border: 5px solid orange;
  	padding: 10px;	
