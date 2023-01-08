@@ -5,6 +5,9 @@
   <title>Twoje Ceny</title>
 </head>
 <body>
+    <form action="ceny.php">
+      <input type="submit"  class="button2" value="Poprzednia strona"/>
+    </form>
 <?php
   $kosztlidl = 0;
   $kosztżabka = 0;
@@ -20,37 +23,37 @@
     $kosztżabka = $kosztżabka + $masloszt*8.5;
     $kosztbiedronka = $kosztbiedronka + $masloszt*6.99;
 
-    $szpinakszt = ($_POST['szpinakszt']);
+  $szpinakszt = ($_POST['szpinakszt']);
     $kosztlidl = $kosztlidl + $szpinakszt*3.35;
     $kosztżabka = $kosztżabka + $szpinakszt*3.99;
     $kosztbiedronka = $kosztbiedronka + $szpinakszt*3.19;
 
-    $chlebtszt = ($_POST['chlebtszt']);
+  $chlebtszt = ($_POST['chlebtszt']);
     $kosztlidl = $kosztlidl + $chlebtszt*4.68;
     $kosztżabka = $kosztżabka + $chlebtszt*6.39;
     $kosztbiedronka = $kosztbiedronka + $chlebtszt*4.66;
 
-    $czekoladaszt = ($_POST['czekoladaszt']);
+  $czekoladaszt = ($_POST['czekoladaszt']);
     $kosztlidl = $kosztlidl + $czekoladaszt*4.43;
     $kosztżabka = $kosztżabka + $czekoladaszt*6.11;
     $kosztbiedronka = $kosztbiedronka + $czekoladaszt*3.99;
 
-    $sólszt = ($_POST['sólszt']);
+  $sólszt = ($_POST['sólszt']);
     $kosztlidl = $kosztlidl + $masloszt*1.29;
     $kosztżabka = $kosztżabka + $masloszt*3.2;
     $kosztbiedronka = $kosztbiedronka + $masloszt*1.29;
 
-    $olejszt = ($_POST['olejszt']);
-    $kosztlidl = $kosztlidl + $masloszt*12.99;
-    $kosztżabka = $kosztżabka + $masloszt*14.99;
-    $kosztbiedronka = $kosztbiedronka + $masloszt*12.99;
+  $olejszt = ($_POST['olejszt']);
+    $kosztlidl = $kosztlidl + $olejszt*12.99;
+    $kosztżabka = $kosztżabka + $olejszt*14.99;
+    $kosztbiedronka = $kosztbiedronka + $olejszt  *12.99;
 
-    $jajkaszt = ($_POST['jajkaszt']);
+  $jajkaszt = ($_POST['jajkaszt']);
     $kosztlidl = $kosztlidl + $jajkaszt*7.49;
     $kosztżabka = $kosztżabka + $jajkaszt*9.99;
     $kosztbiedronka = $kosztbiedronka + $jajkaszt*7.99;
 
-    $bananyszt = ($_POST['bananyszt']);
+  $bananyszt = ($_POST['bananyszt']);
     $kosztlidl = $kosztlidl + $bananyszt*6.99;
     $kosztżabka = $kosztżabka + $bananyszt*6.99;
     $kosztbiedronka = $kosztbiedronka + $bananyszt*6.99;
