@@ -10,14 +10,6 @@
 	font-weight: 600;
 	background-color: orange;
 }
-.button2 {
-	border-radius: 8px;
-	padding: 5px;
-	font-weight: 600;
-	background-color: orange;
-	padding-top: 50px;
-	padding-left: 50px;
-}
 .middle {
 	margin: auto;
   	width: 50%;
@@ -29,9 +21,16 @@
   	padding-bottom: 30px;
   	padding-left: 300px;
 }
+.middleafter2 {
+	margin: auto;
+  	width: 50%;
+  	padding-top:300px ;
+  	padding-left: 300px;
+}
 .żabkalogo {
 	position: absolute;
     right: 240px;
+    padding-top: 20px;
 }
 .żabka {
 	position: absolute;
@@ -49,7 +48,7 @@
 }
 .biedronkalogo {
 	position: absolute;
-    right: 780px;
+    right:700px;
 }
 .biedronka {
 	position: absolute;
