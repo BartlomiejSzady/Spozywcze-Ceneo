@@ -6,7 +6,7 @@
 </head>
 <body>
     <form action="ceny.php">
-      <input type="submit"  class="button2" value="Poprzednia strona"/>
+      <input type="submit"  class="button" value="Poprzednia strona"/>
     </form>
 <?php
   $kosztlidl = 0;
@@ -59,12 +59,19 @@
     $kosztbiedronka = $kosztbiedronka + $bananyszt*6.99;
 ?> 
   <div class="middleafter"><h1>Za zakupy zapłacisz:</h1></div>
-  <hr> <br>
+  <hr color="orange"> <br>
   <div class="żabkalogo"><img src="img/żabka.jpg" alt="żabka" width="180" height="120"></div>
   <div class="żabka">Za zakupy w Żabce zapłacisz <strong><?php echo $kosztżabka?> </strong> pln.</div>
   <div class="lidllogo"><img src="img/lidl.jpg" alt="lidl" width="150" height="150"></div>
   <div class="lidl">Za zakupy w Lidlu zapłacisz <strong><?php echo $kosztlidl?> </strong> pln.</div>
   <div class="biedronkalogo"><img src="img/biedronka.jpg" alt="biedronka" width="235" height="150"></div>
   <div class="biedronka">Za zakupy w Biedronce zapłacisz <strong><?php echo $kosztbiedronka?> </strong> pln. </div> 
+  <?php
+    $ceny=array($kosztbiedronka, $kosztlidl, $kosztżabka);
+    asort($ceny);
+    $najniższa = $ceny[2]-$ceny[0];
+  ?>
+
+  <div class="middleafter2"><h2>Możesz oszczędzić do: <?php echo $najniższa?> pln.</h2></div>
 </body>
 </html>
