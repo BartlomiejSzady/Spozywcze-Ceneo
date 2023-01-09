@@ -8,9 +8,9 @@
 <body>
   <div class="middle"><h1>Wybierz produkty których ceny chcesz porównać:</h1></div>
   <form action="cenyafter.php" method="post" class="list">
-    <input type="checkbox"  id="mleko" name="mleko" value= "mleko" onclick="visibilitymleko()">
+    <input type="checkbox"  id="mleko" name="mleko" value= "mleko" onclick="visibilitymleko()" checked="checked">
     <label for="mleko"> Mleko 3,2% 1l </label>
-    <input type="text" style="width: 15px" name="mlekoszt" maxlength="2" value="0" id="mlekoszt"> szt.
+    <input type="number" min="0" style="width: 33px" name="mlekoszt" maxlength="2" value="0" id="mlekoszt"> szt.
     <script>
       function visibilitymleko() {
         if (document.getElementById("mleko").checked == true) {
@@ -22,9 +22,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="masło" name="masło" value= "masło" onclick="visibilitymasło()">
+    <input type="checkbox" id="masło" name="masło" value= "masło" onclick="visibilitymasło()" checked="checked">
     <label for="masło"> Masło 200g</label>
-    <input type="text" style="width: 15px" name="masłoszt" maxlength="2" value="0" id="masłoszt"> szt.
+    <input type="number" min="0" style="width: 33px" name="masłoszt" maxlength="2" value="0" id="masłoszt"> szt.
     <script>
       function visibilitymasło() {
         if (document.getElementById("masło").checked == true) {
@@ -36,9 +36,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="szpinak" name="szpinak" value= "szpinak" onclick="visibilityszpinak()">
+    <input type="checkbox" id="szpinak" name="szpinak" value= "szpinak" onclick="visibilityszpinak()" checked="checked">
     <label for="szpinak"> Szpinak 450g</label>
-    <input type="text" style="width: 15px" name="szpinakszt" maxlength="2" value="0" id="szpinakszt"> szt.
+    <input type="number" min="0" style="width: 33px" name="szpinakszt" maxlength="2" value="0" id="szpinakszt"> szt.
     <script>
       function visibilityszpinak() {
         if (document.getElementById("szpinak").checked == true) {
@@ -50,9 +50,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="chlebt" name="chleb" value= "chlebt" onclick="visibilitychlebt()">
+    <input type="checkbox" id="chlebt" name="chleb" value= "chlebt" onclick="visibilitychlebt()" checked="checked">
     <label for="chlebt"> Chleb Tostowy 250g</label>
-    <input type="text" style="width: 15px" name="chlebtszt" maxlength="2" value="0" id="chlebtszt"> szt.
+    <input type="number" min="0" style="width: 33px" name="chlebtszt" maxlength="2" value="0" id="chlebtszt"> szt.
     <script>
       function visibilitychlebt() {
         if (document.getElementById("chlebt").checked == true) {
@@ -64,9 +64,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="czekolada" name="czekolada" value= "czekolada" onclick="visibilityczekolada()">
+    <input type="checkbox" id="czekolada" name="czekolada" value= "czekolada" onclick="visibilityczekolada()" checked="checked">
     <label for="czekolada"> Czekolada 100g </label>
-    <input type="text" style="width: 15px" name="czekoladaszt" maxlength="2" value="0" id="czekoladaszt"> tabliczka.
+    <input type="number" min="0" style="width: 33px" name="czekoladaszt" maxlength="2" value="0" id="czekoladaszt"> tabliczka.
     <script>
       function visibilityczekolada() {
         if (document.getElementById("czekolada").checked == true) {
@@ -78,9 +78,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="sól" name="sól" value= "sól" onclick="visibilitysól()">
+    <input type="checkbox" id="sól" name="sól" value= "sól" onclick="visibilitysól()" checked="checked">
     <label for="sól"> Sól 1kg </label>
-    <input type="text" style="width: 15px" name="sólszt" maxlength="2" value="0" id="sólszt"> szt.
+    <input type="number" min="0" style="width: 33px" name="sólszt" maxlength="2" value="0" id="sólszt"> szt.
     <script>
       function visibilitysól() {
         if (document.getElementById("sól").checked == true) {
@@ -92,9 +92,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="olej" name="olej" value= "olej" onclick="visibilityolej()">
+    <input type="checkbox" id="olej" name="olej" value= "olej" onclick="visibilityolej()" checked="checked">
     <label for="olej"> Olej 1l</label>
-    <input type="text" style="width: 15px" name="olejszt" maxlength="2" value="0" id="olejszt"> szt.
+    <input type="number" min="0" style="width: 33px" name="olejszt" maxlength="2" value="0" id="olejszt"> szt.
     <script>
       function visibilityolej() {
         if (document.getElementById("olej").checked == true) {
@@ -106,9 +106,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="jajka" name="jajka" value= "jajka" onclick="visibilityjajka()">
+    <input type="checkbox" id="jajka" name="jajka" value= "jajka" onclick="visibilityjajka()" checked="checked">
     <label for="jajka"> 10 jajek</label>
-    <input type="text" style="width: 15px" name="jajkaszt" maxlength="2" value="0" id="jajkaszt"> paczka.
+    <input type="number" min="0" style="width: 33px" name="jajkaszt" maxlength="2" value="0" id="jajkaszt"> paczka.
     <script>
       function visibilityjajka() {
         if (document.getElementById("jajka").checked == true) {
@@ -120,9 +120,9 @@
       }
     </script>
     <br>
-    <input type="checkbox" id="banany" name="banany" value= "banany" onclick="visibilitybanany()">
+    <input type="checkbox" id="banany" name="banany" value= "banany" onclick="visibilitybanany()" checked="checked">
     <label for="banany"> Banany 1kg </label>
-    <input type="text" style="width: 15px" name="bananyszt" maxlength="2" value="0" id="bananyszt"> kg.
+    <input type="number" min="0" style="width: 33px" name="bananyszt" maxlength="2" value="0" id="bananyszt"> kg.
     <script>
       function visibilitybanany() {
         if (document.getElementById("banany").checked == true) {
@@ -136,5 +136,12 @@
     <br><br>
     <input type="submit" value="Porównaj" class="button">
   </form>
+  <script>
+      function uncheckAll() {
+        document.querySelectorAll('input[type="checkbox"]')
+        .forEach(el => el.checked = false);
+      }    
+    </script>
+  <button onclick="uncheckAll()">Clear</button>
 </body>
 </html>
