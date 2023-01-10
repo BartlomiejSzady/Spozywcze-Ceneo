@@ -71,7 +71,8 @@
     asort($ceny);
     $najniższa = $ceny[2]-$ceny[0];
   ?>
-
   <div class="middleafter2"><h2>Możesz oszczędzić do: <?php echo $najniższa?> pln.</h2></div>
+  <div class="middleafter3">Twoja lista zakupów:</div>
+  <br>
 </body>
 </html>
