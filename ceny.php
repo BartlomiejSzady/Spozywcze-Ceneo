@@ -22,6 +22,36 @@
       }
     </script>
     <br>
+  <form action="cenyafter.php" method="post" class="list">
+    <input type="checkbox"  id="mleko" name="ser" value= "ser" onclick="visibilityser()" checked="checked">
+    <label for="ser"> Ser żółty gounda 100g </label>
+    <input type="number" min="0" style="width: 33px" name="serszt" maxlength="2" value="0" id="serszt"> szt.
+    <script>
+      function visibilityser() {
+        if (document.getElementById("ser").checked == true) {
+          document.getElementById("serszt").style.visibility = "visible";
+        } 
+        else {
+          document.getElementById("serszt").style.visibility = "hidden";
+        }
+      }
+    </script>
+    <br>
+  <form action="cenyafter.php" method="post" class="list">
+    <input type="checkbox"  id="kawa" name="kawa" value= "kawa" onclick="visibilitykawa()" checked="checked">
+    <label for="kawa"> Mleko 3,2% 1l </label>
+    <input type="number" min="0" style="width: 33px" name="kawaszt" maxlength="2" value="0" id="kawaszt"> szt.
+    <script>
+      function visibilitykawa() {
+        if (document.getElementById("kawa").checked == true) {
+          document.getElementById("kawaszt").style.visibility = "visible";
+        } 
+        else {
+          document.getElementById("kawaszt").style.visibility = "hidden";
+        }
+      }
+    </script>
+    <br>
     <input type="checkbox" id="masło" name="masło" value= "masło" onclick="visibilitymasło()" checked="checked">
     <label for="masło"> Masło 200g</label>
     <input type="number" min="0" style="width: 33px" name="masłoszt" maxlength="2" value="0" id="masłoszt"> szt.
