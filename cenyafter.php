@@ -27,6 +27,16 @@
     $kosztlidl = $kosztlidl + $szpinakszt*3.35;
     $kosztżabka = $kosztżabka + $szpinakszt*3.99;
     $kosztbiedronka = $kosztbiedronka + $szpinakszt*3.19;
+  
+  $serszt = ($_POST['serszt']);
+    $kosztlidl = $kosztlidl + $serszt*2.73;
+    $kosztżabka = $kosztżabka + $serszt*2.79;
+    $kosztbiedronka = $kosztbiedronka + $serszt*4.46;
+  
+  $kawaszt = ($_POST['kawaszt']);
+    $kosztlidl = $kosztlidl + $kawaszt*9;
+    $kosztżabka = $kosztżabka + $kawaszt*8.49;
+    $kosztbiedronka = $kosztbiedronka + $kawaszt*12.80;
 
   $chlebtszt = ($_POST['chlebtszt']);
     $kosztlidl = $kosztlidl + $chlebtszt*4.68;
